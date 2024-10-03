@@ -1,0 +1,12 @@
+[package]
+name = "interest_rate_calculator_cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.1", features = ["json"] }
+proc-macro2 = "1.0"
+fixed = "1.23.1"
+fixed-macro = "1.2"
+num = "0.4"
+clap = { version = "4.0", features = ["derive"] }
